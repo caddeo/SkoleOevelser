@@ -18,7 +18,7 @@ namespace _40Excercise02
 
         public double Circumference()
         {
-            return Math.Sqrt((Width * Width) + (Height + Height));
+            return Math.Sqrt((Width * Width) + (Height + Height)) + Height + Width;
         }
     }
 }
