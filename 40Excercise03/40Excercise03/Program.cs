@@ -10,10 +10,38 @@ namespace _40Excercise03
     {
         static void Main(string[] args)
         {
-            for (int i = 5; i < 12; i++)
+
+            /*int[] tid = {8, 12, 16};*/
+            for (int i = 8; i <= 16; i++ )
             {
-                Console.WriteLine(i);
+                /*if (tid.Contains(i))
+                { */
+                    if (i == 8 /*tid[0]*/ )
+                    {
+                        Console.WriteLine("8 - Start of the day");
+                    }
+                    else if (i == 12 /*tid[1]*/)
+                    {
+                        Console.WriteLine("Lunch Break");
+                    }
+                    else if(i == 16)
+                    {
+                        Console.WriteLine("16\nGoing home at 16");
+                    }
+                    else
+                    {
+                        Console.WriteLine(i);
+                    }
+                /*}
+                else
+                {
+                    Console.WriteLine(i);
+                }*/
+
+
             }
+
+            Console.ReadKey();
 
         }
     }
