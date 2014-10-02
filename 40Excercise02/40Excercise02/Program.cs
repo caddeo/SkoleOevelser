@@ -23,9 +23,7 @@ namespace _40Excercise02
                Console.WriteLine(i);
              */
 
-            /*Soccer odense = new Soccer();
-            odense.HomeField = "OB";
-            odense.goalscore = new List<GoalScore>();
+          /*  Soccer odense = new Soccer("OB");
 
             GoalScore first = new GoalScore();
             first.Name = "Benny";
@@ -34,15 +32,12 @@ namespace _40Excercise02
             Console.WriteLine(odense.goalscore[0].Name);
 
             Console.WriteLine("Hit enter-key to stop the program.");
-            Console.ReadKey();*/
+            Console.ReadKey();
+            */
+            
+            /*List<BankAccountClass> bac = new List<BankAccountClass>();
 
-            List<BankAccountClass> bac = new List<BankAccountClass>();
-
-            BankAccountClass bac1 = new BankAccountClass();
-
-            bac1.accountNumber = bac.Count + 1;
-            bac1.dateOpened = "29-09-2014";
-            bac1.accountType = "Løn konto";
+            BankAccountClass bac1 = new BankAccountClass("Savings");
 
             Console.WriteLine(bac1.GetBalance());
 
@@ -64,16 +59,14 @@ namespace _40Excercise02
 
             Console.WriteLine(bac1.GetBalance());
 
-            Console.ReadKey();
-            
-           /* Console.Write("Enter height: ");
+            Console.ReadKey(); */
+        
+            Console.Write("Enter height: ");
             double a1 = double.Parse(Console.ReadLine());
             Console.Write("Enter width: ");
             double b1 = double.Parse(Console.ReadLine());
 
-            Square sq = new Square();
-            sq.Height = a1;
-            sq.Width = b1;
+            Square sq = new Square(a1, b1);
 
             Console.WriteLine("Area: " + sq.Area());
             Console.WriteLine("Circumference: " + sq.Circumference());
@@ -93,7 +86,7 @@ namespace _40Excercise02
             Console.WriteLine("Circumference: " + rt.Circumference());
 
             Console.WriteLine("Hit key to stop program.");
-            Console.ReadKey();*/
+            Console.ReadKey(); 
 
         }
     }

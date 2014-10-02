@@ -13,5 +13,12 @@ namespace _40Excercise02
 
         public List<GoalScore> goalscore { get; set; }
 
+        public Soccer(string HomeField) {
+            this.HomeField = HomeField;
+
+            goalscore = new List<GoalScore>();
+        }
+
+        public Soccer() : this("") {}
     }
 }

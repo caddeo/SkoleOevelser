@@ -15,6 +15,19 @@ namespace _40Excercise02
         public string dateOpened { get; set; }
         public string accountType { get; set; }
 
+        public BankAccountClass(int accountNumber, string dateOpened, string accountType, double balance) {
+            Random random = new Random();
+
+            this.accountNumber = random.Next(10000, 99999) ;
+            this.dateOpened = DateTime.Today.ToString("D");
+            this.accountType = accountType;
+            this.balance = 0.0;
+        }
+
+        public BankAccountClass(string accountType) : this(0, "", accountType, 0.0)
+        {
+            Console.WriteLine("Bank konto oprettet "+dateOpened +" med nummer " + accountNumber+" med balancen " + balance);   
+        }
         public void Deposit(double amount)
         {
             balance = balance + amount;

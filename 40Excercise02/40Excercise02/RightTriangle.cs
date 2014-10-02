@@ -11,6 +11,18 @@ namespace _40Excercise02
         public double Height { get; set; }
         public double Width { get; set; }
 
+        public RightTriangle(double h, double w)
+        {
+            this.Height = h;
+            this.Width = w;
+        }
+
+        public RightTriangle()
+            : this(0, 0)
+        {
+                
+        }
+
         public double Area()
         {
             return (Height * Width) / 2;

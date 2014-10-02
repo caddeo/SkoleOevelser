@@ -12,6 +12,20 @@ namespace _40Excercise02
         public double Height { get; set; }
         public double Width { get; set; }
 
+
+        public Square(double h, double w)
+        {
+            this.Height = h;
+            this.Width = w;
+        }
+
+        public Square(int a)
+            : this(a, 0)
+        {
+
+
+        }
+
         public double Area()
         {
             return Width * Height;

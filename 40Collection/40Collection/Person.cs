@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _40Excercise02
+namespace _40Collection
 {
-    class GoalScore
+    class Person
     {
 
         public string Name { get; set; }
-        public String Name { get; set; }
+        public string YearOfBirth { get; set; }
+        public double Weight { get; set; }
     }
 }
