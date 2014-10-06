@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace _40Collection
 {
-    class Person
+    class Program
     {
-
-        public string Name { get; set; }
-        public string YearOfBirth { get; set; }
-        public double Weight { get; set; }
     }
 }

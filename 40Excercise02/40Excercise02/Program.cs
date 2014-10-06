@@ -98,6 +98,24 @@ namespace _40Excercise02
                 else if (intAnswer == 7)
                 {
 
+                    RightTriangle rt = new RightTriangle();
+
+                    if (trianglelist.Count > 0)
+                    {
+                        for (int i = 0; i < trianglelist.Count; i++)
+                        {
+                            if (trianglelist[i].Height >= rt.Height)
+                            {
+                                rt = trianglelist[i];
+                            }
+                        }
+
+                        Console.WriteLine(rt.Height);
+                    }
+                    else
+                    {
+
+                    }
                 }
                 else if (intAnswer == 8)
                 {
