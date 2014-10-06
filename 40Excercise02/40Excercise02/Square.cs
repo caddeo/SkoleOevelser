@@ -19,8 +19,8 @@ namespace _40Excercise02
             this.Width = w;
         }
 
-        public Square(int a)
-            : this(a, 0)
+        public Square()
+            : this(1, 1)
         {
 
 
