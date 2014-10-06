@@ -8,5 +8,9 @@ namespace _40Collection
 {
     class Program
     {
+        public static void Main(string[] args)
+        {
+
+        }
     }
 }
