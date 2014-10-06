@@ -18,10 +18,12 @@ namespace _40Excercise02
         }
 
         public RightTriangle()
-            : this(0, 0)
+            : this(1, 1)
         {
                 
         }
+
+        // Constructor for either height or width
 
         public double Area()
         {
